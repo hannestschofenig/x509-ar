@@ -45,7 +45,7 @@ author:
     email: monty.wiseman@beyondidentity.com
   -
     name: Hannes Tschofenig
-    organization: University of Applied Sciences Bonn-Rhein-Siegx
+    organization: University of Applied Sciences Bonn-Rhein-Sieg
     abbrev: H-BRS
     email: Hannes.Tschofenig@gmx.net
 
