@@ -168,7 +168,7 @@ EvidenceClaims ::= SET SIZE (1..MAX) OF EVIDENCE-CLAIM
 ~~~
 
 
-# Securitý Considerations {#sec-priv-cons}
+# Security Considerations {#sec-priv-cons}
 
 The extension MUST NOT publish in the certificate any privacy-sensitive information that could compromise the end device. What counts as privacy-sensitive will vary by use case. For example:
 
