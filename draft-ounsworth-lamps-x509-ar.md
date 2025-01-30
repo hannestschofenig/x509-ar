@@ -133,7 +133,7 @@ See {{sec-priv-cons}} for a discussion of privacy concerns related to re-publish
 
 ## ASN.1 Module {#extclaims-asn}
 
-This section provides an ASN.1 Module {{X.680}} for the Evidence Claims certificate extension, and it follows the conventions established in {{RFC5912}} and {{RFC6268}}.
+This section provides an ASN.1 Module for the Evidence Claims certificate extension, and it follows the conventions established in {{RFC5912}} and {{RFC6268}}.
 
 ~~~ asn.1
 EvidenceClaimsCertExtn
