@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-03-25T01:47:52.495609+00:00",
+  "timestamp": "2025-03-27T01:46:43.726698+00:00",
   "repo": "hannestschofenig/x509-ar",
   "labels": [
     {
@@ -49,6 +49,50 @@
       "color": "ffffff"
     }
   ],
-  "issues": [],
-  "pulls": []
+  "issues": [
+    {
+      "number": 2,
+      "id": "I_kwDONX4Pls6vqINN",
+      "title": "Identity binding description",
+      "url": "https://github.com/hannestschofenig/x509-ar/issues/2",
+      "state": "OPEN",
+      "author": "nedmsmith",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "There probably should be text that reinforces the identity to attestation claims binding semantics. Presumably the certificate identity fields identify the entity to which the attestation claims (attributes) belong. A point of possible ambiguity is whether those properties apply generally across the entire entity (endpoint) or do they apply to something within the endpoint that is more specific (granular). If more granular, then there needs to be a way to name / identify the more granular component. If they are intended to apply more coarsely, does that application result in, what some my describe as escalation of privilige, where the attribute (quality of trust) is unjustifiably ascribed to some parts of the endpoint?",
+      "createdAt": "2025-03-25T16:05:20Z",
+      "updatedAt": "2025-03-25T16:05:20Z",
+      "closedAt": null,
+      "comments": []
+    }
+  ],
+  "pulls": [
+    {
+      "number": 1,
+      "id": "PR_kwDONX4Pls6QCAY3",
+      "title": "Update to draft",
+      "url": "https://github.com/hannestschofenig/x509-ar/pull/1",
+      "state": "OPEN",
+      "author": "tireddy2",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2025-03-25T11:59:25Z",
+      "updatedAt": "2025-03-25T11:59:25Z",
+      "baseRepository": "hannestschofenig/x509-ar",
+      "baseRefName": "main",
+      "baseRefOid": "ca7dbf5975cfd164cf58e54e73bc4ca53936cf7f",
+      "headRepository": "hannestschofenig/x509-ar",
+      "headRefName": "tireddy2-patch-1",
+      "headRefOid": "58bef79e132fbf9ae318f29e9d8a8189a9fa209f",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": []
+    }
+  ]
 }
