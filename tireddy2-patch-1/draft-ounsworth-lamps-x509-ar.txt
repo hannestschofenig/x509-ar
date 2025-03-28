@@ -10,6 +10,8 @@ Expires: 29 September 2025                               Beyond Identity
                                                                    H-BRS
                                                                 T. Reddy
                                                                    Nokia
+                                                                N. Smith
+                                                       Intel Corporation
                                                            28 March 2025
 
 
@@ -410,3 +412,9 @@ Authors' Addresses
    Karnataka
    India
    Email: kondtir@gmail.com
+
+
+   Ned Smith
+   Intel Corporation
+   United States of America
+   Email: ned.smith@intel.com
