@@ -48,14 +48,15 @@ author:
     organization: University of Applied Sciences Bonn-Rhein-Sieg
     abbrev: H-BRS
     email: Hannes.Tschofenig@gmx.net
--
+  -
     fullname: Tirumaleswar Reddy
     organization: Nokia
     city: Bangalore
     region: Karnataka
     country: India
-    email: "kondtir@gmail.com"
-- ins: N. Smith
+    email: kondtir@gmail.com
+  - 
+    ins: N. Smith
     fullname: Ned Smith
     organization: Intel Corporation
     email: ned.smith@intel.com
@@ -154,7 +155,7 @@ EvidenceClaimsCertExtn
 
 DEFINITIONS IMPLICIT TAGS ::= BEGIN
 
-IMPORTS 
+IMPORTS
     EXTENSION
     FROM PKIX-CommonTypes-2009 -- RFC 5912
         { iso(1) identified-organization(3) dod(6) internet(1)
