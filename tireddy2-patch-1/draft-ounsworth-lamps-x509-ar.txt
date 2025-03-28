@@ -5,12 +5,12 @@
 LAMPS                                                       M. Ounsworth
 Internet-Draft                                                   Entrust
 Intended status: Standards Track                              M. Wiseman
-Expires: 26 September 2025                               Beyond Identity
+Expires: 29 September 2025                               Beyond Identity
                                                            H. Tschofenig
                                                                    H-BRS
                                                                 T. Reddy
                                                                    Nokia
-                                                           25 March 2025
+                                                           28 March 2025
 
 
           X.509 Certificate Extensions for Attestation Results
@@ -45,7 +45,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 26 September 2025.
+   This Internet-Draft will expire on 29 September 2025.
 
 Copyright Notice
 
