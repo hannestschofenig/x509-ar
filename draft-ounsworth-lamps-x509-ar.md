@@ -55,12 +55,11 @@ author:
     region: Karnataka
     country: India
     email: "kondtir@gmail.com"
-  -
-    name: Ned Smith
+  - ins: N. Smith
+    fullname: Ned Smith
     organization: Intel Corporation
-    country: USA
     email: ned.smith@intel.com
- -
+
 normative:
   RFC2119:
   RFC5280:
