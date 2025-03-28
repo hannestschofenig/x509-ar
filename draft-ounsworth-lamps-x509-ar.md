@@ -48,14 +48,14 @@ author:
     organization: University of Applied Sciences Bonn-Rhein-Sieg
     abbrev: H-BRS
     email: Hannes.Tschofenig@gmx.net
- -
+  -
     fullname: Tirumaleswar Reddy
     organization: Nokia
     city: Bangalore
     region: Karnataka
     country: India
     email: "kondtir@gmail.com"
--
+  -
     name: Ned Smith
     organization: Intel Corporation
     country: USA
