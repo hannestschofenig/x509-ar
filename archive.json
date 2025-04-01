@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-03-30T01:54:36.943279+00:00",
+  "timestamp": "2025-04-01T01:59:23.598822+00:00",
   "repo": "hannestschofenig/x509-ar",
   "labels": [
     {
@@ -80,7 +80,7 @@
       "labels": [],
       "body": "",
       "createdAt": "2025-03-25T11:59:25Z",
-      "updatedAt": "2025-03-28T21:32:46Z",
+      "updatedAt": "2025-03-31T05:57:17Z",
       "baseRepository": "hannestschofenig/x509-ar",
       "baseRefName": "main",
       "baseRefOid": "ca7dbf5975cfd164cf58e54e73bc4ca53936cf7f",
