@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-04-01T01:59:23.598822+00:00",
+  "timestamp": "2025-04-24T01:51:43.265942+00:00",
   "repo": "hannestschofenig/x509-ar",
   "labels": [
     {
@@ -73,26 +73,42 @@
       "id": "PR_kwDONX4Pls6QCAY3",
       "title": "Update to draft",
       "url": "https://github.com/hannestschofenig/x509-ar/pull/1",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "tireddy2",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [],
       "body": "",
       "createdAt": "2025-03-25T11:59:25Z",
-      "updatedAt": "2025-03-31T05:57:17Z",
+      "updatedAt": "2025-04-22T16:56:24Z",
       "baseRepository": "hannestschofenig/x509-ar",
       "baseRefName": "main",
       "baseRefOid": "ca7dbf5975cfd164cf58e54e73bc4ca53936cf7f",
       "headRepository": "hannestschofenig/x509-ar",
       "headRefName": "tireddy2-patch-1",
       "headRefOid": "6fa15381df4c7d2acad198aca05153ce02293102",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "closedAt": "2025-04-22T16:56:20Z",
+      "mergedAt": "2025-04-22T16:56:20Z",
+      "mergedBy": "hannestschofenig",
+      "mergeCommit": {
+        "oid": "a5855890114a885a677197a702eb03d2aa365ed8"
+      },
       "comments": [],
-      "reviews": []
+      "reviews": [
+        {
+          "id": "PRR_kwDONX4Pls6l-8jR",
+          "commit": {
+            "abbreviatedOid": "6fa1538"
+          },
+          "author": "hannestschofenig",
+          "authorAssociation": "OWNER",
+          "state": "APPROVED",
+          "body": "Great update, Tiru. I would merge it because I believe it is a significant improvement for the draft.",
+          "createdAt": "2025-04-22T16:56:11Z",
+          "updatedAt": "2025-04-22T16:56:11Z",
+          "comments": []
+        }
+      ]
     },
     {
       "number": 3,
