@@ -40,7 +40,6 @@ author:
   -
     ins: M. Wiseman
     name: Monty Wiseman
-    org:
     country: USA
     email: montywiseman32@gmail.com
   -
