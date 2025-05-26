@@ -40,9 +40,9 @@ author:
   -
     ins: M. Wiseman
     name: Monty Wiseman
-    org: Beyond Identity
+    org: 
     country: USA
-    email: monty.wiseman@beyondidentity.com
+    email: montywiseman32@gmail.com
   -
     name: Hannes Tschofenig
     organization: University of Applied Sciences Bonn-Rhein-Sieg
