@@ -5,14 +5,14 @@
 LAMPS                                                       M. Ounsworth
 Internet-Draft                                                   Entrust
 Intended status: Standards Track                              M. Wiseman
-Expires: 24 October 2025                                 Beyond Identity
+Expires: 27 November 2025                                               
                                                            H. Tschofenig
                                                                    H-BRS
                                                                 T. Reddy
                                                                    Nokia
                                                                 N. Smith
                                                        Intel Corporation
-                                                           22 April 2025
+                                                             26 May 2025
 
 
           X.509 Certificate Extensions for Attestation Results
@@ -47,7 +47,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 24 October 2025.
+   This Internet-Draft will expire on 27 November 2025.
 
 Copyright Notice
 
@@ -396,9 +396,8 @@ Authors' Addresses
 
 
    Monty Wiseman
-   Beyond Identity
    United States of America
-   Email: monty.wiseman@beyondidentity.com
+   Email: montywiseman32@gmail.com
 
 
    Hannes Tschofenig
