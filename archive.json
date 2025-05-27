@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-04-24T01:51:43.265942+00:00",
+  "timestamp": "2025-05-27T01:54:44.895192+00:00",
   "repo": "hannestschofenig/x509-ar",
   "labels": [
     {
@@ -63,6 +63,22 @@
       "body": "There probably should be text that reinforces the identity to attestation claims binding semantics. Presumably the certificate identity fields identify the entity to which the attestation claims (attributes) belong. A point of possible ambiguity is whether those properties apply generally across the entire entity (endpoint) or do they apply to something within the endpoint that is more specific (granular). If more granular, then there needs to be a way to name / identify the more granular component. If they are intended to apply more coarsely, does that application result in, what some my describe as escalation of privilige, where the attribute (quality of trust) is unjustifiably ascribed to some parts of the endpoint?",
       "createdAt": "2025-03-25T16:05:20Z",
       "updatedAt": "2025-03-25T16:05:20Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 4,
+      "id": "I_kwDONX4Pls64JWi4",
+      "title": "Review from Russ",
+      "url": "https://github.com/hannestschofenig/x509-ar/issues/4",
+      "state": "OPEN",
+      "author": "hannestschofenig",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "You define:\n\n        AR-Claims ::= SEQUENCE SIZE (1..MAX) OF ReportedEntity\n\nThis seems odd.  Consider:\n\n        ARClaims ::= SEQUENCE SIZE (1..MAX) OF ARClaim\n\nAlso, why not use AttributeSet as specified in RFC 5912.",
+      "createdAt": "2025-05-25T17:41:54Z",
+      "updatedAt": "2025-05-25T17:41:54Z",
       "closedAt": null,
       "comments": []
     }
@@ -133,6 +149,34 @@
       "mergedAt": null,
       "mergedBy": null,
       "mergeCommit": null,
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 5,
+      "id": "PR_kwDONX4Pls6XmZqe",
+      "title": "Monty's Author Change",
+      "url": "https://github.com/hannestschofenig/x509-ar/pull/5",
+      "state": "MERGED",
+      "author": "hannestschofenig",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2025-05-26T08:48:13Z",
+      "updatedAt": "2025-05-26T08:51:31Z",
+      "baseRepository": "hannestschofenig/x509-ar",
+      "baseRefName": "main",
+      "baseRefOid": "a5855890114a885a677197a702eb03d2aa365ed8",
+      "headRepository": "hannestschofenig/x509-ar",
+      "headRefName": "hannestschofenig-patch-1",
+      "headRefOid": "b90d0c48119d6fd27708b68efd4139a2c67c3c02",
+      "closedAt": "2025-05-26T08:51:27Z",
+      "mergedAt": "2025-05-26T08:51:27Z",
+      "mergedBy": "hannestschofenig",
+      "mergeCommit": {
+        "oid": "92d6a4b921280096754abea6ca7f469681d04fa0"
+      },
       "comments": [],
       "reviews": []
     }
