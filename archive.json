@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-05-27T01:54:44.895192+00:00",
+  "timestamp": "2025-07-17T02:06:28.170709+00:00",
   "repo": "hannestschofenig/x509-ar",
   "labels": [
     {
@@ -177,6 +177,32 @@
       "mergeCommit": {
         "oid": "92d6a4b921280096754abea6ca7f469681d04fa0"
       },
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 6,
+      "id": "PR_kwDONX4Pls6fLE5A",
+      "title": "Update draft to address comments from the WG",
+      "url": "https://github.com/hannestschofenig/x509-ar/pull/6",
+      "state": "OPEN",
+      "author": "tireddy2",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2025-07-16T12:10:05Z",
+      "updatedAt": "2025-07-16T12:10:10Z",
+      "baseRepository": "hannestschofenig/x509-ar",
+      "baseRefName": "main",
+      "baseRefOid": "92d6a4b921280096754abea6ca7f469681d04fa0",
+      "headRepository": "hannestschofenig/x509-ar",
+      "headRefName": "tireddy2-patch-1",
+      "headRefOid": "abbe10a58afab8c3a5dd72fb0be6275c28c2bd6c",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
       "comments": [],
       "reviews": []
     }
