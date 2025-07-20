@@ -155,7 +155,7 @@ The Attestation Results extension MUST have the following syntax:
 AR-Claims ::= SEQUENCE SIZE (1..MAX) OF ReportedEntity
 ~~~
 
-The AR-Claims field represents a sequence of attestation results claims (ReportedEntity) added by the CA in the certificate. It MUST contain at least one claim. For privacy reasons, the CA MAY choose to include only a subset of the claims from the Attestation Result it received from a Verifier. The CA's certificate profile can specify which attestation result claims (identified by OIDs) MAY be copied from the CSR; any others MUST NOT be copied. By omitting the original signature from the attestation evidence, the CA is stating that it has validated the attestation results against a trusted root, but it does not have to reveal which root was used.
+The AR-Claims field represents a sequence of Attestation Results claims (ReportedEntity) added by the CA in the certificate. It MUST contain at least one claim. For privacy reasons, the CA MAY choose to include only a subset of the claims from the Attestation Result it received from a Verifier. The CA's certificate profile can specify which Attestation Result claims (identified by OIDs) MAY be copied from the CSR; any others MUST NOT be copied. By omitting the original signature from the attestation evidence, the CA is stating that it has validated the Attestation Results against a trusted root, but it does not have to reveal which root was used.
 
 See {{sec-priv-cons}} for a discussion of privacy concerns related to re-publishing Evidence into a certificate.
 
