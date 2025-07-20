@@ -123,7 +123,7 @@ While PKIX Key Attestation {{I-D.ietf-rats-pkix-key-attestation}} defines a mech
 ~~~
 {: #fig-arch title="Example Data Flow demonstrating Attested CSR with Passport Model."}
 
-Steps 1 to 3, including the generation of an attestation result, its inclusion in a CSR, and its verification by a Registration Authority are already specified in {{I-D.ietf-rats-pkix-key-attestation}}. 
+Steps 1 to 3, including the generation of an Attestation Result, its inclusion in a CSR, and its verification by a Registration Authority are already specified in {{I-D.ietf-rats-pkix-key-attestation}}. 
 
   * Step 5: The CA issues an X.509 certificate embedding the attestation results within the Attestation Results Certificate Extension.
   * Step 6: The Relying Party uses TLS with mutual authentication to verify the certificate and its Attestation Results, authenticating the Attester.
