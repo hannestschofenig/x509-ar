@@ -101,10 +101,10 @@ While PKIX Key Attestation {{I-D.ietf-rats-pkix-key-attestation}} defines a mech
    +--------------------->|     Verifier    | against Appraisal
    | Attestation Result(2)|                 | Policy
    |       +--------------'------------+----'
-   |       |               
-   |       |          
-   |       |          
-   |       v          
+   |       |
+   |       |
+   |       |
+   |       v
 .------------.             .-----------------.                .-----.
 |            +------------>|                 |--------------->|     |
 | HSM        | Attestation | Registration    |                | CA  |
