@@ -125,7 +125,7 @@ While PKIX Key Attestation {{I-D.ietf-rats-pkix-key-attestation}} defines a mech
 
 Steps 1 to 3, including the generation of an Attestation Result, its inclusion in a CSR, and its verification by a Registration Authority are already specified in {{I-D.ietf-rats-pkix-key-attestation}}. 
 
-  * Step 5: The CA issues an X.509 certificate embedding the attestation results within the Attestation Results Certificate Extension.
+  * Step 5: The CA issues an X.509 certificate embedding the Attestation Results within the Attestation Results Certificate Extension.
   * Step 6: The Relying Party uses TLS with mutual authentication to verify the certificate and its Attestation Results, authenticating the Attester.
 
 The intent of embedding attestation results in certificates is not to replace real-time attestation or duplicate the CA's device attestation validation, but to provide additional context about the attester's state at the time of certificate issuance in a standardized and machine-readable format that relying parties can consume. This enables relying parties to make informed decisions during certificate validation. For example, the embedded attestation information can be cross-checked against real-time attestation results to detect potential deviations in the attester's current security posture. Mechanisms such as those described in {{?I-D.fossati-tls-exported-attestation}} allow attesters to convey real-time evidence securely and bind it to the TLS session.
