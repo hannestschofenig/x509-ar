@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-07-20T02:21:56.901496+00:00",
+  "timestamp": "2025-07-22T02:07:15.684519+00:00",
   "repo": "hannestschofenig/x509-ar",
   "labels": [
     {
@@ -192,18 +192,26 @@
       "labels": [],
       "body": "",
       "createdAt": "2025-07-16T12:10:05Z",
-      "updatedAt": "2025-07-19T18:05:18Z",
+      "updatedAt": "2025-07-20T13:34:00Z",
       "baseRepository": "hannestschofenig/x509-ar",
       "baseRefName": "main",
       "baseRefOid": "92d6a4b921280096754abea6ca7f469681d04fa0",
       "headRepository": "hannestschofenig/x509-ar",
       "headRefName": "tireddy2-patch-1",
-      "headRefOid": "abbe10a58afab8c3a5dd72fb0be6275c28c2bd6c",
+      "headRefOid": "a67d26b5e803099792788bb9a1e1d44b81642ea0",
       "closedAt": null,
       "mergedAt": null,
       "mergedBy": null,
       "mergeCommit": null,
-      "comments": [],
+      "comments": [
+        {
+          "author": "hannestschofenig",
+          "authorAssociation": "OWNER",
+          "body": "I believe the PR is good! Thanks for the work on it, Tiru.\r\n",
+          "createdAt": "2025-07-20T13:34:00Z",
+          "updatedAt": "2025-07-20T13:34:00Z"
+        }
+      ],
       "reviews": [
         {
           "id": "PRR_kwDONX4Pls607a99",
@@ -216,6 +224,132 @@
           "body": "I still think we need a description of the key's certificate \"life-cycle\" that may drive some changes to this. However, this is a significant  improvement and should be merged.",
           "createdAt": "2025-07-19T18:05:18Z",
           "updatedAt": "2025-07-19T18:05:18Z",
+          "comments": []
+        },
+        {
+          "id": "PRR_kwDONX4Pls609cf5",
+          "commit": {
+            "abbreviatedOid": "abbe10a"
+          },
+          "author": "hannestschofenig",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-07-20T12:47:04Z",
+          "updatedAt": "2025-07-20T12:47:04Z",
+          "comments": [
+            {
+              "originalPosition": 65,
+              "body": "```suggestion\r\nSteps 1 to 3, including the generation of an Attestation Result, its inclusion in a CSR, and its verification by a Registration Authority are already specified in {{I-D.ietf-rats-pkix-key-attestation}}. \r\n```",
+              "createdAt": "2025-07-20T12:47:04Z",
+              "updatedAt": "2025-07-20T12:47:04Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDONX4Pls609cni",
+          "commit": {
+            "abbreviatedOid": "f43277e"
+          },
+          "author": "hannestschofenig",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-07-20T12:48:52Z",
+          "updatedAt": "2025-07-20T12:48:53Z",
+          "comments": [
+            {
+              "originalPosition": 101,
+              "body": "```suggestion\r\nThe AR-Claims field represents a sequence of Attestation Results claims (ReportedEntity) added by the CA in the certificate. It MUST contain at least one claim. For privacy reasons, the CA MAY choose to include only a subset of the claims from the Attestation Result it received from a Verifier. The CA's certificate profile can specify which Attestation Result claims (identified by OIDs) MAY be copied from the CSR; any others MUST NOT be copied. By omitting the original signature from the attestation evidence, the CA is stating that it has validated the Attestation Results against a trusted root, but it does not have to reveal which root was used.\r\n```",
+              "createdAt": "2025-07-20T12:48:52Z",
+              "updatedAt": "2025-07-20T12:48:53Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDONX4Pls609cp6",
+          "commit": {
+            "abbreviatedOid": "fb50106"
+          },
+          "author": "hannestschofenig",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-07-20T12:49:26Z",
+          "updatedAt": "2025-07-20T12:49:27Z",
+          "comments": [
+            {
+              "originalPosition": 69,
+              "body": "```suggestion\r\n  * Step 5: The CA issues an X.509 certificate embedding the Attestation Results within the Attestation Results Certificate Extension.\r\n```",
+              "createdAt": "2025-07-20T12:49:26Z",
+              "updatedAt": "2025-07-20T12:49:27Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDONX4Pls609dAS",
+          "commit": {
+            "abbreviatedOid": "3d5d341"
+          },
+          "author": "hannestschofenig",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-07-20T12:54:18Z",
+          "updatedAt": "2025-07-20T12:54:19Z",
+          "comments": [
+            {
+              "originalPosition": 101,
+              "body": "```suggestion\r\nThe AR-Claims field represents a sequence of Attestation Results claims (ReportedEntity) added by the CA in the certificate. It MUST contain at least one claim. For privacy reasons, the CA MAY choose to include only a subset of the claims from the Attestation Result it received from a Verifier. The CA's certificate profile can specify which Attestation Result claims (identified by OIDs) MAY be copied from the CSR; any others MUST NOT be copied. By omitting the original signature from the Attestation Evidence, the CA is stating that it has validated the Attestation Results against a trusted root, but it does not have to reveal which root was used.\r\n```",
+              "createdAt": "2025-07-20T12:54:19Z",
+              "updatedAt": "2025-07-20T12:54:19Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDONX4Pls609dF7",
+          "commit": {
+            "abbreviatedOid": "5acdcbe"
+          },
+          "author": "hannestschofenig",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-07-20T12:55:43Z",
+          "updatedAt": "2025-07-20T12:55:44Z",
+          "comments": [
+            {
+              "originalPosition": 101,
+              "body": "```suggestion\r\nThe AR-Claims field represents a sequence of Attestation Results claims (ReportedEntity) added by the CA in the certificate. It MUST contain at least one claim. For privacy reasons, the CA MAY choose to include only a subset of the claims from the Attestation Result it received from a Verifier. The CA's certificate profile can specify which Attestation Result claims (identified by OIDs) MAY be copied from the Attestation Evidence provided in the CSR; any others MUST NOT be copied.\r\n```",
+              "createdAt": "2025-07-20T12:55:44Z",
+              "updatedAt": "2025-07-20T12:55:44Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDONX4Pls609el3",
+          "commit": {
+            "abbreviatedOid": "a67d26b"
+          },
+          "author": "mwiseman32",
+          "authorAssociation": "NONE",
+          "state": "APPROVED",
+          "body": "Regarding \";any others MUST NOT be copied.\". I'd like to consider use cases were other data withing a defined context might be added. For example,  while we may not want to copy the AK Cert there may be other information about the entity that signed the Evidence Statement. Let's merge this for now to provide a working document.",
+          "createdAt": "2025-07-20T13:17:31Z",
+          "updatedAt": "2025-07-20T13:17:31Z",
+          "comments": []
+        },
+        {
+          "id": "PRR_kwDONX4Pls609fZE",
+          "commit": {
+            "abbreviatedOid": "a67d26b"
+          },
+          "author": "mwiseman32",
+          "authorAssociation": "NONE",
+          "state": "APPROVED",
+          "body": "Generally good comments but need to review when merged.",
+          "createdAt": "2025-07-20T13:29:19Z",
+          "updatedAt": "2025-07-20T13:29:19Z",
           "comments": []
         }
       ]
