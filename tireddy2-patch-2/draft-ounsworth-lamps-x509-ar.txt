@@ -2,16 +2,14 @@
 
 
 
-LAMPS                                                       M. Ounsworth
-Internet-Draft                                                   Entrust
-Intended status: Standards Track                              M. Wiseman
-Expires: 23 March 2026                                                  
-                                                           H. Tschofenig
-                                                                   H-BRS
-                                                                T. Reddy
-                                                                   Nokia
-                                                                N. Smith
-                                                       Intel Corporation
+LAMPS                                                      H. Tschofenig
+Internet-Draft                                                     H-BRS
+Intended status: Standards Track                                T. Reddy
+Expires: 23 March 2026                                             Nokia
+                                                              M. Wiseman
+                                                                        
+                                                            M. Ounsworth
+                                                                 Entrust
                                                        19 September 2025
 
 
@@ -403,19 +401,6 @@ Acknowledgments
 
 Authors' Addresses
 
-   Mike Ounsworth
-   Entrust Limited
-   2500 Solandt Road – Suite 100
-   Ottawa, Ontario  K2K 3G5
-   Canada
-   Email: mike.ounsworth@entrust.com
-
-
-   Monty Wiseman
-   United States of America
-   Email: montywiseman32@gmail.com
-
-
    Hannes Tschofenig
    University of Applied Sciences Bonn-Rhein-Sieg
    Email: Hannes.Tschofenig@gmx.net
@@ -429,7 +414,14 @@ Authors' Addresses
    Email: kondtir@gmail.com
 
 
-   Ned Smith
-   Intel Corporation
+   Monty Wiseman
    United States of America
-   Email: ned.smith@intel.com
+   Email: montywiseman32@gmail.com
+
+
+   Mike Ounsworth
+   Entrust Limited
+   2500 Solandt Road – Suite 100
+   Ottawa, Ontario  K2K 3G5
+   Canada
+   Email: mike.ounsworth@entrust.com
