@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-07-22T02:07:15.684519+00:00",
+  "timestamp": "2025-09-21T01:54:48.950740+00:00",
   "repo": "hannestschofenig/x509-ar",
   "labels": [
     {
@@ -185,24 +185,26 @@
       "id": "PR_kwDONX4Pls6fLE5A",
       "title": "Update draft to address comments from the WG",
       "url": "https://github.com/hannestschofenig/x509-ar/pull/6",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "tireddy2",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [],
       "body": "",
       "createdAt": "2025-07-16T12:10:05Z",
-      "updatedAt": "2025-07-20T13:34:00Z",
+      "updatedAt": "2025-09-19T08:05:07Z",
       "baseRepository": "hannestschofenig/x509-ar",
       "baseRefName": "main",
       "baseRefOid": "92d6a4b921280096754abea6ca7f469681d04fa0",
       "headRepository": "hannestschofenig/x509-ar",
       "headRefName": "tireddy2-patch-1",
       "headRefOid": "a67d26b5e803099792788bb9a1e1d44b81642ea0",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "closedAt": "2025-09-19T08:05:07Z",
+      "mergedAt": "2025-09-19T08:05:07Z",
+      "mergedBy": "tireddy2",
+      "mergeCommit": {
+        "oid": "b6c1e48fcaac35406bd5ead2ab72adc9beb2c2da"
+      },
       "comments": [
         {
           "author": "hannestschofenig",
@@ -353,6 +355,32 @@
           "comments": []
         }
       ]
+    },
+    {
+      "number": 7,
+      "id": "PR_kwDONX4Pls6pdAE_",
+      "title": "Update order of authors",
+      "url": "https://github.com/hannestschofenig/x509-ar/pull/7",
+      "state": "OPEN",
+      "author": "tireddy2",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2025-09-19T08:12:35Z",
+      "updatedAt": "2025-09-19T08:12:35Z",
+      "baseRepository": "hannestschofenig/x509-ar",
+      "baseRefName": "main",
+      "baseRefOid": "b6c1e48fcaac35406bd5ead2ab72adc9beb2c2da",
+      "headRepository": "hannestschofenig/x509-ar",
+      "headRefName": "tireddy2-patch-2",
+      "headRefOid": "e33356976080bb57c407423a0fb29217ed201d35",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": []
     }
   ]
 }
