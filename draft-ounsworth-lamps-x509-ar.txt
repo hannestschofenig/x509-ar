@@ -2,17 +2,15 @@
 
 
 
-LAMPS                                                       M. Ounsworth
-Internet-Draft                                                   Entrust
-Intended status: Standards Track                              M. Wiseman
-Expires: 23 March 2026                                                  
-                                                           H. Tschofenig
-                                                                   H-BRS
-                                                                T. Reddy
-                                                                   Nokia
-                                                                N. Smith
-                                                       Intel Corporation
-                                                       19 September 2025
+LAMPS                                                      H. Tschofenig
+Internet-Draft                                                     H-BRS
+Intended status: Standards Track                                T. Reddy
+Expires: 8 April 2026                                              Nokia
+                                                              M. Wiseman
+                                                                        
+                                                            M. Ounsworth
+                                                                 Entrust
+                                                          5 October 2025
 
 
           X.509 Certificate Extensions for Attestation Results
@@ -47,7 +45,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 23 March 2026.
+   This Internet-Draft will expire on 8 April 2026.
 
 Copyright Notice
 
@@ -403,19 +401,6 @@ Acknowledgments
 
 Authors' Addresses
 
-   Mike Ounsworth
-   Entrust Limited
-   2500 Solandt Road – Suite 100
-   Ottawa, Ontario  K2K 3G5
-   Canada
-   Email: mike.ounsworth@entrust.com
-
-
-   Monty Wiseman
-   United States of America
-   Email: montywiseman32@gmail.com
-
-
    Hannes Tschofenig
    University of Applied Sciences Bonn-Rhein-Sieg
    Email: Hannes.Tschofenig@gmx.net
@@ -429,7 +414,14 @@ Authors' Addresses
    Email: kondtir@gmail.com
 
 
-   Ned Smith
-   Intel Corporation
+   Monty Wiseman
    United States of America
-   Email: ned.smith@intel.com
+   Email: montywiseman32@gmail.com
+
+
+   Mike Ounsworth
+   Entrust Limited
+   2500 Solandt Road – Suite 100
+   Ottawa, Ontario  K2K 3G5
+   Canada
+   Email: mike.ounsworth@entrust.com
