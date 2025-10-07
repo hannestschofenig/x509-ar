@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-09-21T01:54:48.950740+00:00",
+  "timestamp": "2025-10-07T01:45:36.405485+00:00",
   "repo": "hannestschofenig/x509-ar",
   "labels": [
     {
@@ -361,24 +361,26 @@
       "id": "PR_kwDONX4Pls6pdAE_",
       "title": "Update order of authors",
       "url": "https://github.com/hannestschofenig/x509-ar/pull/7",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "tireddy2",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [],
       "body": "",
       "createdAt": "2025-09-19T08:12:35Z",
-      "updatedAt": "2025-09-19T08:12:35Z",
+      "updatedAt": "2025-10-05T09:14:22Z",
       "baseRepository": "hannestschofenig/x509-ar",
       "baseRefName": "main",
       "baseRefOid": "b6c1e48fcaac35406bd5ead2ab72adc9beb2c2da",
       "headRepository": "hannestschofenig/x509-ar",
       "headRefName": "tireddy2-patch-2",
       "headRefOid": "e33356976080bb57c407423a0fb29217ed201d35",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "closedAt": "2025-10-05T09:14:22Z",
+      "mergedAt": "2025-10-05T09:14:22Z",
+      "mergedBy": "tireddy2",
+      "mergeCommit": {
+        "oid": "3a01dbb75728f7674d34e28723cbe35d23119bd6"
+      },
       "comments": [],
       "reviews": []
     }
